@@ -1,3 +1,8 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
 .navbar{
     width: 90%;
     height: 60px;
@@ -5,9 +10,10 @@
     border: black solid 2px;
     border-radius: 12px;
     position: fixed;
-    top: 10px;
+    top: 15px;
     right: 5%;
     padding: 12px 24px;
+    height: 65px;
     display: flex;
     flex-flow: row;
     align-items: center;
@@ -38,7 +44,6 @@
     padding: 0;
     align-items: center;
     justify-content: center;
-    color: ;
     
 }
 
@@ -69,6 +74,29 @@
     font-size: 14px;
     line-height: 20px;
     margin: 0;
+}
+/*  END NAVBAR */
+
+/* START HERO */
+#main_hero{
+    
+    border: #000 solid 2px;
+}
+.hero{
+height: 100vh;
+    background-color: rgb(255, 240, 133);
+    /* position: relative; */
+}
+
+.stickpaper1{
+    height: 128px;
+    width: 128px;
+    background-color: rgba(0, 0, 0,.2);
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    order: -1;
+    transform: rotate(10deg);
 }
 
 
