@@ -1,0 +1,74 @@
+.navbar{
+    width: 90%;
+    height: 60px;
+    background-color: white;
+    border: black solid 2px;
+    border-radius: 12px;
+    position: fixed;
+    top: 10px;
+    right: 5%;
+    padding: 12px 24px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+.navbar .title{
+    font-family: "Exo", sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    font-weight: 36px;
+    margin: 0;
+    padding: 0;
+}
+.navbar .title span{
+    color: #FF6900;
+}
+.navbar img{
+    width: 15px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    color: ;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    
+    color: #000;
+}
+
+.subscribe {
+
+    background-color: #FED05B;
+    border-radius: 20px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    border: 2px black solid;
+    
+}
+.subscribe button span{
+    font-family: "Exo", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+
+
