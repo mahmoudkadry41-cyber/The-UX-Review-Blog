@@ -67,6 +67,7 @@ body {
   align-items: center;
   justify-content: baseline;
   border: 2px black solid;
+  transition: all .5s;
 
 }
 .subscribe:hover {
@@ -77,9 +78,7 @@ body {
   align-items: center;
   justify-content: baseline;
   border: 2px black solid;
-  position: relative;
-  top: 2px;
-  left: 2px;
+transform:translate(2px , 2px);
   
 }
 
@@ -210,11 +209,10 @@ body {
     padding: 0;
     box-shadow: 5px 5px black;
     box-sizing: border-box;
+    transition: all .5s;
     }
     .hrobtns a:hover{
-        position: relative;
-  top: 2px;
-  left: 2px;
+transform:translate(3px , 3px);
   box-shadow: none;
   transition: 1s;
     }
@@ -249,18 +247,16 @@ body {
 .hcright img{
 width: 530px;
 height: 376px;
-transform: rotate(3deg);
+z-index: 3;
 border: black 2px solid;
 box-shadow: 10px 10px;
-
+transition:.6s;
+transform: rotate(3deg);
 
 }
 .hcright img:hover{
-
-position: relative;
-bottom: 2px;
-right: 2px;
-
+transform: translate(-5px , -5px ) rotate(3deg);
+box-shadow: 15px 15px;
 
 }
 
@@ -357,25 +353,29 @@ margin: 0;
   border: #000 4px solid;
   box-sizing: border-box;
   box-shadow: #000 5px 5px;
+  transition: all 1s;
+  
   
 }
 .lftartcntnr .article:hover{
-  position: relative;
-  bottom: 5px;
-  right: 5px;
+  transform:translate(-5px , -5px);
+
   box-shadow: #000 10px 10px;
+}
+.lftartcntnr .article .h33 ,.h32,.h31{
+transition: color 1s;
 }
 .lftartcntnr .article:hover .h31{
 color: oklch(0.577 0.245 27.325);
-transition-duration: 1s;
+
 }
 .lftartcntnr .article:hover .h32{
 color: oklch(0.546 0.245 262.881);
-transition-duration: 1s;
+
 }
 .lftartcntnr .article:hover .h33{
 color: oklch(0.558 0.288 302.321);
-transition-duration: 1s;
+
 }
 
 
@@ -560,6 +560,8 @@ align-items: center;
   display: flex;
   align-items: center;
   justify-content: center;
+  
+  
 }
 
 
@@ -580,13 +582,15 @@ align-items: center;
     box-sizing: border-box;
     background-color: #000  ;
     color: white;
+    transition: all .5s;
+    
 }
 
 .rtclfter a:hover{
-  position: relative;
-  top: 5px;
-  left: 5px;
+  transform:translate(5px , 5px);
   box-shadow: none;
+  
+  
   
 }
 
@@ -717,6 +721,7 @@ transition-duration: .5s;
   align-items: center;
   padding-left: 25px;
   box-sizing: border-box;
+  transition: all 1s;
   
 }
 .CATEGORIES .cte:hover{
@@ -725,7 +730,7 @@ transition-duration: .5s;
   position: relative;
   bottom: 2px;
   right: 2px;
-  transition-duration: 1s;
+  transform:translate(-5px , -5px);
 }
 .CATEGORIES .cte a{
   font-family: EXO, sans-serif;
@@ -745,6 +750,7 @@ transition-duration: .5s;
   align-items: center;
   padding-left: 25px;
   box-sizing: border-box;
+  transition: all 1s;
 }
 .CATEGORIES .cde:hover{
   background-color: #7BF1A8;
@@ -752,7 +758,7 @@ transition-duration: .5s;
   position: relative;
   bottom: 2px;
   right: 2px;
-  transition-duration: 1s;
+  transform:translate(-5px , -5px);
 }
 .CATEGORIES .cde a{
   font-family: EXO, sans-serif;
@@ -772,6 +778,7 @@ transition-duration: .5s;
   align-items: center;
   padding-left: 25px;
   box-sizing: border-box;
+  transition: all 1s;
 }
 .CATEGORIES .ccu:hover{
   background-color: #FDA5D5;
@@ -779,7 +786,7 @@ transition-duration: .5s;
   position: relative;
   bottom: 2px;
   right: 2px;
-  transition-duration: 1s;
+  transform:translate(-5px , -5px);
 }
 .CATEGORIES .ccu a{
   font-family: EXO, sans-serif;
@@ -799,14 +806,14 @@ transition-duration: .5s;
   align-items: center;
   padding-left: 25px;
   box-sizing: border-box;
+  transition: all 1s;
+  
 }
 .CATEGORIES .cop:hover{
   background-color:#8EC5FF;
   box-shadow: #000 5px 5px;
-  position: relative;
-  bottom: 2px;
-  right: 2px;
-  transition-duration: 1s;
+transform:translate(-5px , -5px);
+
 }
 .CATEGORIES .cop a{
   font-family: EXO, sans-serif;
@@ -826,6 +833,7 @@ transition-duration: .5s;
   align-items: center;
   padding-left: 25px;
   box-sizing: border-box;
+  transition: all 1s;
 }
 .CATEGORIES .ctu:hover{
   background-color:#DAB2FF;
@@ -833,7 +841,7 @@ transition-duration: .5s;
   position: relative;
   bottom: 2px;
   right: 2px;
-  transition-duration: 1s;
+transform:translate(-5px , -5px);
 }
 .CATEGORIES .ctu a{
   font-family: EXO, sans-serif;
