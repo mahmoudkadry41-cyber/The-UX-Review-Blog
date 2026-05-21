@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -186,6 +190,7 @@ transform:translate(2px , 2px);
 }
 .dscr p{
     margin: 0;
+    text-align: left;
 }
 
 .hrobtns{
@@ -515,6 +520,13 @@ color: oklch(0.558 0.288 302.321);
   box-shadow: #000 3px 3px;
 
 }
+
+.artclright{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
 .artclright h3{
 
   font-size: 24px;
@@ -529,6 +541,7 @@ color: oklch(0.558 0.288 302.321);
   font-weight: 400;
   font-family: EXO, sans-serif;
   line-height: 29px;
+  text-align: left;
 
 }
 .artrightfoot{
@@ -878,16 +891,16 @@ transform:translate(-5px , -5px);
   
 
 }
-.autmaincontainer h2{
+.autmaincontainer .tpcntnr h2{
   text-align: center;
   font-family: EXO, sans-serif;
   font-size: 48px;
   font-weight: 900;
   line-height: 48px;
   margin-top: 70px;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
-.autmaincontainer .jd{
+.autmaincontainer .tpcntnr .jd{
   text-align: center;
   font-family: EXO, sans-serif;
   font-size: 20px;
@@ -896,13 +909,13 @@ transform:translate(-5px , -5px);
   color: oklch(0.439 0 0);
   position: relative;
 }
-.autmaincontainer .jd::after{
+.autmaincontainer .tpcntnr .jd::after{
   content: '';
   height: 8px;
   width: 130px;
   background-color: #000;
   position: absolute;
-  top: 50px;
+  top: 45px;
   left: 170px;
 }
 .autherscontainer{
@@ -1115,5 +1128,472 @@ box-sizing: border-box;
   background-color: #E60076;
   box-shadow: 2px 2px;
 }
+/* End Authors */
+/* Start JOIN THE REBELLION */
+#jtr {
+  width: 100%;
+  height: 1100px;
+  background-color: #F5F5F5;
+  border: #000 2px solid;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 
+}
+.jtrhead{
+  height: 230px;
+}
+.jtrhead .tpcntnr h2{
+  text-align: center;
+  font-family: EXO, sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 48px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+
+}
+.jtrhead .tpcntnr .jd{
+  text-align: center;
+  font-family: EXO, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  color: oklch(0.439 0 0);
+  position: relative;
+}
+.jtrhead .tpcntnr .jd::after{
+  content: '';
+  height: 8px;
+  width: 130px;
+  background-color: #000;
+  position: absolute;
+  top: 45px;
+  left: 170px;
+}
+.jtrbody{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.jtrright{
+  width: 42.5%;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.jtrright h3{
+  font-family: EXO, sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 40px;
+  margin: 0;
+}
+.jtrright .par{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  border: #000 2px solid;
+  box-shadow: #000 3px 3px;
+ 
+}
+.jtrright .par p{
+  font-family: EXO, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 33px;
+  text-align: left;
+}
+
+.benefit{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.benefit .benimg1{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FB2C36;
+  border:#000 2px solid ;
+}
+.benefit .benimg2{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2B7FFF;
+  border:#000 2px solid ;
+}
+.benefit .benimg3{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #AD46FF;
+  border:#000 2px solid ;
+}
+.benefit .benimg4{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00C950;
+  border:#000 2px solid ;
+}
+
+.benefit img{
+  width: 25px;
+  height: 25px;
+}
+.benefit p{
+font-family: EXO, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  
+}
+
+.jtrbtn{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jtrbtn button{
+  background-color: #000;
+  height: 70px;
+  width:350px;
+  box-shadow: #000 5px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: .5s;
+}
+
+.jtrbtn button:hover{
+  transform: translate(5px , 5px);
+  box-shadow: none;
+}
+
+
+.jtrbtn button img{
+  width: 30px;
+  height: 30px;
+}
+.jtrbtn button span{
+  font-family: EXO, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: rgb(255, 255, 255)
+;
+}
+
+.jtrleft{
+  width: 42.5%;
+  height: 750px;
+ display: flex;
+ justify-content: end;
+}
+
+.jtrleft .jtrleftcontainer{
+  height: 100%;
+  width: 90%;
+  box-sizing: border-box;
+  padding: 10px;
+  box-shadow: #000 5px 5px;
+  border: #000 4px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.jtrleft .jtrleftcontainer h3{
+  font-family: EXO, sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 36px;
+  margin: 0;
+}
+#cards{
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+  border: #000 2px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#cards p{
+  font-family: EXO, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: left;
+}
+#cards h5{
+  font-family: EXO, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+}
+#cards span{
+  font-family: EXO, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: oklch(0.439 0 0);
+}
+.card1{
+  background-color: #FEF2F2;
+}
+.card2{
+  background-color: #EFF6FF;
+}
+.card3{
+  background-color:#FAF5FF;
+}
+.cardbottom{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.cardimg img{
+  width: 44px;
+  height: 44px;
+  border: #000 2px solid;
+}
+.cardinfo h5, span{
+  margin: 0;
+}
+
+/* End JOIN THE REBELLION  */
+/* Start Footer */
+#footer{
+  width: 100%;
+  height: 600px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#footer h6 , #footer span , #footer p , #footer a{
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  transition: .5s;
+  
+}
+.upperfooter{
+  height: 60%;
+  width: 85%;
+  display: flex;
+  box-sizing: border-box;
+  border-bottom: white 3px solid;
+}
+
+.upperfooter .ufleft{
+
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 50px;
+  padding-right: 40px;
+}
+
+.ulefthead{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px
+  ;
+}
+.ulefthead h6{
+  font-size: 30px;
+  font-family: EXO, sans-serif;
+  font-weight: 900;
+  line-height: 36px;
+  margin: 0;
+}
+.ufleft p{
+  font-size: 18px;
+  font-family: EXO, sans-serif;
+  font-weight: 400;
+  line-height: 29px;
+  margin: 0;
+}
+
+
+.ufleftimg{
+  background-color:#FFFFFF;
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+}
+.ufleftimg img{
+  width: 60px;
+  height: 60px;
+}
+
+
+.upperfooter .ufmdl{
+
+  width: 20%;
+  display: flex;
+}
+
+
+.ufmdl{
+  display: flex;
+  flex-direction: column;
+  gap: 50px
+  ;
+}
+
+.ufmdl h6{
+  font-size: 24px;
+  font-family: EXO, sans-serif;
+  font-weight: 900;
+  line-height: 32px;
+  margin: 0;
+}
+
+.ufmdl ul{
+margin: 0;
+list-style-type: none;
+display: flex;
+flex-direction: column;
+gap: 20px;
+padding: 0;
+margin: 0;
+margin-left: 0;
+text-align: left;
+}
+.ufmdl li{
+ font-size: 16px;
+  font-family: EXO, sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+.upperfooter .ufright{
+
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  box-sizing: border-box;
+}
+.ufright h6{
+ font-size: 24px;
+  font-family: EXO, sans-serif;
+  font-weight: 900;
+  line-height: 32px;
+  margin: 0;
+
+}
+.ufright p{
+ font-size: 18px;
+  font-family: EXO, sans-serif;
+  font-weight: 400;
+  line-height: 29px;
+  margin: 0;
+
+}
+
+.upperfooter .ufright form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px
+;
+
+}
+
+.ufright form input{
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+  border: white 2px solid;
+  box-sizing: border-box;
+}
+.ufright form button{
+  width: 95%;
+  height: 50px;
+  font-size: 18px;
+  font-family: EXO, sans-serif;
+  font-weight: 700;
+  line-height: 28px;
+  color: #000;
+  background-color: #FFDF20;
+  box-shadow: #CCB219 3px 3px;
+  border: none;
+  box-sizing: border-box;
+  transition: 1s;
+}
+.ufright input::placeholder{
+  font-size: 18px;
+  font-family: EXO, sans-serif;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: center;
+}
+
+.bottomfoter{
+  width: 85%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.bottomfoter p{
+font-size: 18px;
+  font-family: EXO, sans-serif;
+  font-weight: 600;
+  line-height: 28px;
+  margin: 0;
+
+}
+.bottomfoter a{
+font-size: 16px;
+  font-family: EXO, sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 0;
+}
+.bottomfoter ul{
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+}
+
+#footer a:hover{
+  color: #FFDF1C;
+}
+.ufright button:hover{
+  transform: translate(5px , 5px);
+  box-shadow: none;
+}
 
