@@ -92,9 +92,15 @@ right: 0px;
   font-weight: 700;
   box-sizing: border-box;
   cursor: pointer;
+  transition: 1s;
 }
 .menuexite label{
   cursor: pointer;
+}
+
+.menuexite:hover{
+  background-color: #FFE2E2;
+  color: #FF7A50;
 }
 .side-navbar ul {
   margin: 0;
@@ -227,6 +233,10 @@ right: 0px;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  transition: transform .5s;
+}
+.menu:hover{
+  transform: translate(0px , 2px);
 }
 
 .menu span {
