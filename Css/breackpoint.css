@@ -41,6 +41,31 @@ padding-bottom: 50px;}
     padding-top: 50px;
 }
 
+.artclleft {
+  position: relative;
+}
+.artclright h3 {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: EXO, sans-serif;
+  line-height: 32px;
+}
+.artclright p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: EXO, sans-serif;
+  line-height: 29px;
+  text-align: left;
+}
+.artrightfoot span {
+  font-size: 10px;
+  font-weight: 600;
+  font-family: EXO, sans-serif;
+  line-height: 20px;
+  margin-left: 5px;
+  margin-top: 4px;
+}
+
 .lftartcntnr{
     gap: 50px;
 }
