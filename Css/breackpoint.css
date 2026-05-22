@@ -87,7 +87,16 @@ padding-bottom: 50px;}
     height: auto;
         height: auto;
         gap: 50px;
-
+        
+}
+.autmaincontainer .tpcntnr .jd::after {
+  content: "";
+  height: 8px;
+  width: 130px;
+  background-color: #000;
+  position: absolute;
+  top: 45px;
+  left: 130px;
 }
 .jtrbody{
     flex-direction: column-reverse;
