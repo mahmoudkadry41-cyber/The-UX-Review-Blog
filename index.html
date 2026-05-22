@@ -7,6 +7,7 @@
     <title>The UX Review Blog</title>
     <link rel="icon" href="./Images/favicon.png">
     <link rel="stylesheet" href="./Css/stylesheet.css">
+    <link rel="stylesheet" href="./Css/breackpoint.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap"
@@ -17,39 +18,84 @@
     <!--START MAIN PAGE -->
     <DIV>
         <!-- Start navbar -->
-        <div class="navbar">
-            <div class="title">
-                <p>The UX <span>Review</span></p>
-            </div>
-            <div class="links">
-                <ul>
-                    <li><a href="#main_hero">HOME</a></li>
-                    <li><img src="./Images/gray-star-solid-full.png" alt="grey star"></li>
-                    <li><a href="#ARTICLES-main">LATEST ARTICLES</a></li>
-                    <li><img src="./Images/gray-star-solid-full.png" alt="grey star"></li>
-                    <li><a href="#authors">AUTHORS</a></li>
-                    <li><img src="./Images/gray-star-solid-full.png" alt="grey star"></li>
-                    <li><a href="#jtr">COMMUNITY</a></li>
-                </ul>
-            </div>
-            <a href="">
-                <div class="subscribe">
-                    <span>SUBSCRIBE NOW</span>
+        <nav class="navmain">
+            <div class="navbar ">
+                <div class="title">
+                    <p>The UX <span>Review</span></p>
                 </div>
-            </a>
-        </div>
+                <div class="links md-hide sm-hide">
+                    <ul>
+                        <li><a href="#main_hero">HOME</a></li>
+                        <li><img src="./Images/gray-star-solid-full.png" alt="grey star"></li>
+                        <li><a href="#ARTICLES-main">LATEST ARTICLES</a></li>
+                        <li><img src="./Images/gray-star-solid-full.png" alt="grey star"></li>
+                        <li><a href="#authors">AUTHORS</a></li>
+                        <li><img src="./Images/gray-star-solid-full.png" alt="grey star"></li>
+                        <li><a href="#jtr">COMMUNITY</a></li>
+                    </ul>
+                </div>
+                <a href="">
+                    <div class="subscribe md-hide sm-hide ">
+                        <span>SUBSCRIBE NOW</span>
+                    </div>
+                </a>
+
+                <a href="" class="xl-hide lg-hide">
+                    <label for="sidebar-active" class="closesidebar">
+                    <div class="menu show">
+                        <span></span>
+                    </div>
+                    </label>
+                </a>
+
+            </div>
+            <input type="checkbox" id="sidebar-active" class="">
+            <div class="side-navbar">
+                <div class="sidemenu">
+                    <p>Menu</p>
+                    <a href="">
+                        <div class="menuexite">
+                            <label for="sidebar-active" class="closesidebar">
+                                <span>✖</span>
+                            </label>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="#main_hero">HOME</a></li>
+                        <li><a href="#ARTICLES-main">LATEST ARTICLES</a></li>
+                        <li><a href="#authors">AUTHORS</a></li>
+                        <li><a href="#jtr">COMMUNITY</a></li>
+                    </ul>
+                </div>
+                <div class="sbscb">
+                    <a href="">
+                        <div class="subscribe2 ">
+                            <img src="./Images/icons8-rocket-50.png" alt="">
+                            <span>SUBSCRIBE NOW</span>
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </nav>
         <!-- End navbar -->
         <!-- Start Hero  -->
 
         <div id="main_hero">
-            <div class="hero">
-                <div class="hc">
 
-                    <div class="hcleft">
+            <div class="hero ">
+                <div class="hc colmn-reverse .md-w-100">
+
+                    <div class="hcleft colmn">
                         <div class="tn">
                             <span>🔥TRENDING NOW</span>
                         </div>
-                        <div class="btbi">
+                        <div class="btbi ">
                             <h2><span class="btbi1">BRUTAL</span> <br>
                                 <span class="btbi2">THOUGHTS</span> <br>
                                 <span class="btbi3">BOLD IDEAS</span>
@@ -73,19 +119,19 @@
                             </a>
                         </div>
                     </div>
-                    <div class="hcright">
+                    <div class="hcright sm-w-35 md-w-35">
 
 
                         <img src="./Images/hero-img.png"
                             alt="Bright abstract geometric shapes in red orange yellow and blue with a bold modern energetic feel">
-                        <div class="ftr">
+                        <div class="ftr sm-hide md-hide">
                             <span>FEATURED</span>
                         </div>
 
                     </div>
                 </div>
             </div>
-            <div class="stickpaper1"></div>
+            <div class="stickpaper1 "></div>
             <div class="stickpaper2"></div>
             <div class="stickpaper3"></div>
 
@@ -94,8 +140,8 @@
         <!-- End Hero  -->
         <!-- Start ARTICLES -->
         <div id="ARTICLES-main">
-            <div class="artcls-container">
-                <div class="lftartcntnr">
+            <div class="artcls-container sm-w-100 md-w-100">
+                <div class="lftartcntnr sm-w-100 md-w-100">
                     <div class="artcl-header">
                         <h2>LATEST ARTICLES</h2>
                         <div class="fc">
@@ -235,7 +281,7 @@
                     </div>
 
                 </div>
-                <div class="rttartcntnr">
+                <div class="rttartcntnr sm-w-100 md-w-100">
                     <div class="stk">
                         <div class="info">
                             <h3>TRENDING NOW</h3>
@@ -294,7 +340,7 @@
                     <P class="jd">The rebels behind the brutal truth</P>
                 </div>
                 <div class="autherscontainer">
-                    <div class="aut1">
+                    <div class="aut1 sm-w-100 md-w-100">
                         <div>
                             <img src="./Images/avatar-1 (1).jpg" alt="ALEX BRUTAL">
                             <div class="ttl">FOUNDER</div>
@@ -308,12 +354,15 @@
                             boring design and
                             corporate BS.</p>
                         <div class="tli">
-                            <div class="twt"><img src="./Images/twitter-brands-solid-full.png" alt="twitter-brand"></div>
-                            <div class="lnin"><img src="./Images/linkedin-brands-solid-full.png" alt="linkedin-brand"></div>
-                            <div class="ins"><img src="./Images/instagram-brands-solid-full.png" alt="instagram-brand"></div>
+                            <div class="twt"><img src="./Images/twitter-brands-solid-full.png" alt="twitter-brand">
+                            </div>
+                            <div class="lnin"><img src="./Images/linkedin-brands-solid-full.png" alt="linkedin-brand">
+                            </div>
+                            <div class="ins"><img src="./Images/instagram-brands-solid-full.png" alt="instagram-brand">
+                            </div>
                         </div>
                     </div>
-                    <div class="aut2">
+                    <div class="aut2 sm-w-100 md-w-100">
                         <div>
                             <img src="./Images/avatar-2 (1).jpg" alt="Arnold Reeve">
                             <div class="ttl">LEAD</div>
@@ -326,12 +375,15 @@
                         <p>Challenging design norms and creating chaos that actually works. <br>Former corporate
                             designer turned rebel with a cause.</p>
                         <div class="tli">
-                            <div class="twt"><img src="./Images/twitter-brands-solid-full.png" alt="twitter-brand"></div>
-                            <div class="lnin"><img src="./Images/linkedin-brands-solid-full.png" alt="linkedin-brand"></div>
-                            <div class="ins"><img src="./Images/instagram-brands-solid-full.png" alt="instagram-brand"></div>
+                            <div class="twt"><img src="./Images/twitter-brands-solid-full.png" alt="twitter-brand">
+                            </div>
+                            <div class="lnin"><img src="./Images/linkedin-brands-solid-full.png" alt="linkedin-brand">
+                            </div>
+                            <div class="ins"><img src="./Images/instagram-brands-solid-full.png" alt="instagram-brand">
+                            </div>
                         </div>
                     </div>
-                    <div class="aut3">
+                    <div class="aut3 sm-w-100 md-w-100">
                         <div>
                             <img src="./Images/avatar-3 (1).jpg" alt="MIKE EDGE">
                             <div class="ttl">VIRAL</div>
@@ -344,9 +396,12 @@
                         <p>Dissecting digital culture and exposing the truth behind viral trends. <br> No filter, just
                             facts that cut through the noise. </p>
                         <div class="tli">
-                            <div class="twt"><img src="./Images/twitter-brands-solid-full.png" alt="twitter-brand"></div>
-                            <div class="lnin"><img src="./Images/linkedin-brands-solid-full.png" alt="linkedin-brand"></div>
-                            <div class="ins"><img src="./Images/instagram-brands-solid-full.png" alt="instagram-brand"></div>
+                            <div class="twt"><img src="./Images/twitter-brands-solid-full.png" alt="twitter-brand">
+                            </div>
+                            <div class="lnin"><img src="./Images/linkedin-brands-solid-full.png" alt="linkedin-brand">
+                            </div>
+                            <div class="ins"><img src="./Images/instagram-brands-solid-full.png" alt="instagram-brand">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -362,7 +417,7 @@
                 </div>
             </div>
             <div class="jtrbody">
-                <div class="jtrright">
+                <div class="jtrright sm-w-100 md-w-100 lg-w-100">
                     <h3><span>BECOME PART OF SOMETHING BIGGER</span></h3>
                     <div class="par">
                         <p>Join thousands of designers, developers, and digital rebels who are tired of the same old
@@ -376,7 +431,8 @@
                         </div>
                     </div>
                     <div class="benefit">
-                        <div class="benimg2"><img src="./Images/discord-brands-solid-full.png" alt="discord-brand"></div>
+                        <div class="benimg2"><img src="./Images/discord-brands-solid-full.png" alt="discord-brand">
+                        </div>
                         <div class="bendisc">
                             <p>Exclusive community Discord access for real-time discussions</p>
                         </div>
@@ -400,7 +456,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="jtrleft">
+                <div class="jtrleft sm-w-100 md-w-100 lg-w-100">
                     <div class="jtrleftcontainer">
                         <h3>WHAT REBELS ARE SAYING</h3>
                         <div class="card1" id="cards">
@@ -454,8 +510,8 @@
         <!-- Start Footer -->
         <div id="footer">
             <div class="upperfooter">
-                <div class="ufleft">
-                    <div class="ulefthead">
+                <div class="ufleft sm-w-95">
+                    <div class="ulefthead ">
                         <div class="ufleftimg"><img src="./Images/pen-nib-solid-full.png" alt=""></div>
                         <h6>THE UX REVIEW</h6>
                     </div>
@@ -477,7 +533,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="ufright">
+                <div class="ufright sm-w-100">
                     <h6>NEWSLETTER</h6>
                     <p>Get brutal insights delivered weekly. No spam, just truth that cuts through the noise.</p>
                     <form action="">
@@ -501,7 +557,11 @@
             </div>
         </div>
         <!-- End Footer -->
-    </DIV>
+
+        <nav>
+
+        </nav>
+    </div>
     <!-- END MAIN PAGE -->
 </body>
 
